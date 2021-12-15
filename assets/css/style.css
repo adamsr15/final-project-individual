@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    color: #5a3b29;
+
+    /* Variables */
+    --background-color: #f7f2ef;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+
+header {
+    height: 7vh;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > a, a:link, a:hover, a:visited, a:active {
+
+    color: black;
+
+}
+
+.logo > a > img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/* Mess with nav text decorations */
+
+body {
+    background-color: var(--background-color);
+}
+
+.splash {
+    height: 70vh;
+    width: 100%;
+    background-image: url(/assets/images/splash-image.jpg);
+    background-size: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+}
+
+.splash-div-container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.splash-text {
+    position: absolute;
+    margin: 0;
+    top: 40%;
+    background-color: rgba(239, 239, 239,0.7);
+}
+
+.splash-text > h1, h2, h3 {
+    width: auto;
+}
+
+.splash-image {
+    position: absolute;
+    margin: 0;
+    top: 40%;
+    background-color: rgba(239, 239, 239,0.7);
+}
+
+.about-me-container {
+    height: 30vh;
+    width: 100%;
+    background-color: #FFDBC7;
+}
+
+.about-me-inner-container {
+    margin: 0 auto 0 auto;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left-about, .right-about {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image {
+    max-height: 100%;
+    max-width: 100%;
+    width: 40em;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-image > img {
+    width: 50%;
+}
+
+.blog-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+article {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.blog-headers {
+    margin-top: 30px;
+}
+
+article > img {
+    margin-top: 15px;
+    max-width: 100%;
+    padding: 0 5% 0 5%;
+}
+
+.blog-subheading {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.read-more {
+    text-align: right;
+}
+
+.contact-me-header-text {
+
+    margin: 30px auto 0 auto;
+    text-align: center;
+    width: 50%;
+
+}
+
+.social-media-container {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.social-media-header {
+    text-align: center;
+}
+
+.social-media-header > a > svg {
+    width: 80%;
+    height: auto;
+    fill: #ffa56d;
+}
+
+.social-media-container-element {
+    width: 20%;
+}
+
+.social-media-container-element > .social-media-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+
+.social-media-container-element > .social-media-text > a, a:link, a:hover, a:visited, a:active {
+    
+    text-decoration: none;
+    color: #ffa56d;
+    
+}
+
+footer {
+    height: 20vh;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    fill: #ffa56d;
+}
