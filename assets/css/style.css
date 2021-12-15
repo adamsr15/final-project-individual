@@ -57,7 +57,7 @@ body {
 .splash {
     height: 70vh;
     width: 100%;
-    background-image: url("assets/images/splash-image.jpg");
+    background-image: url("/final-project-individual/assets/images/splash-image.jpg");
     background-size: 100%;
 }
 
